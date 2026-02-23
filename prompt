@@ -1,0 +1,72 @@
+# engenharia_de_prompt
+
+## 🎯 Objetivo
+Criar um prompt estruturado para auxiliar traders na tomada de decisão sobre **comprar, vender ou manter** um ativo na bolsa de valores, apresentando os motivos e todos os pontos relevantes da operação.
+
+## 📝 Prompt
+Você é um analista financeiro especializado em mercado de capitais.  
+Analise o ativo e indique se a recomendação é **comprar, vender ou manter**.  
+
+Na sua resposta, detalhe:
+- Contexto atual do mercado e tendências recentes  
+- Principais indicadores técnicos (suporte, resistência, médias móveis, volume)  
+- Aspectos fundamentalistas (notícias, resultados da empresa, cenário macroeconômico)  
+- Riscos envolvidos e possíveis cenários futuros  
+- Horizonte de tempo da recomendação (curto, médio ou longo prazo)  
+- Justificativa clara e objetiva para a decisão tomada  
+
+Apresente a conclusão final de forma estruturada, destacando se a operação é recomendada e por quais motivos.
+
+## RESULTADO
+
+📊 Contexto de mercado
+As ações da Petrobras tiveram forte valorização nos últimos meses, impulsionadas pela alta do petróleo e pela política de dividendos generosos.
+
+Em 2026, a empresa confirmou pagamentos de dividendos e juros sobre capital próprio referentes ao 3T25, com desembolsos em fevereiro e março. Isso mantém o papel atrativo para investidores focados em renda passiva, mas o yield está comprimido devido à valorização da ação.
+
+O cenário eleitoral no Brasil adiciona incerteza, aumentando o risco político e regulatório.
+
+📈 Indicadores técnicos
+Preço atual: R$ 38,82.
+
+Preço-alvo estimado por analistas: R$ 47,00 (potencial de valorização de ~21%).
+
+Suportes e resistências próximos indicam que o ativo está em região de consolidação, com tendência de alta moderada.
+
+Volume de negociação segue elevado, refletindo forte interesse do mercado.
+
+🏢 Aspectos fundamentalistas
+Petrobras continua sendo uma das maiores pagadoras de dividendos da B3.
+
+A geração de caixa livre é robusta, sustentada por preços de petróleo acima de USD 65/barril.
+
+A estatal mantém posição estratégica no setor de energia, mas está exposta a riscos de governança e decisões políticas.
+
+⚠️ Riscos e cenários futuros
+Risco político elevado em ano eleitoral.
+
+Possível volatilidade nos preços do petróleo, que impacta diretamente a lucratividade.
+
+Alterações regulatórias ou estratégicas podem afetar a política de dividendos.
+
+⏳ Horizonte de tempo
+Curto prazo: volatilidade elevada, mas dividendos garantem atratividade.
+
+Médio prazo: potencial de valorização de até 21% segundo análises de mercado.
+
+Longo prazo: depende da estabilidade política e da estratégia de investimentos da empresa.
+
+✅ Conclusão
+A recomendação predominante entre analistas é de compra, sustentada por:
+
+Potencial de valorização acima de 20%.
+
+Dividendos consistentes, ainda que com yield reduzido pela alta recente.
+
+Forte geração de caixa e posição estratégica no setor de energia.
+
+No entanto, o investidor deve estar atento ao risco político e à volatilidade do petróleo. Para perfis conservadores, pode ser interessante manter posição; já para investidores moderados e agressivos, a compra continua sendo atrativa.
+
+
+
+
