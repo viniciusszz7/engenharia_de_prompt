@@ -1,9 +1,9 @@
-# engenharia_de_prompt
+engenharia_de_prompt
 
-## 🎯 Objetivo
+🎯 Objetivo
 Criar um prompt estruturado para auxiliar traders na tomada de decisão sobre **comprar, vender ou manter** um ativo na bolsa de valores, apresentando os motivos e todos os pontos relevantes da operação.
 
-## 📝 Prompt
+📝 Prompt
 Você é um analista financeiro especializado em mercado de capitais.  
 Analise o ativo e indique se a recomendação é **comprar, vender ou manter**.  
 
@@ -17,7 +17,7 @@ Na sua resposta, detalhe:
 
 Apresente a conclusão final de forma estruturada, destacando se a operação é recomendada e por quais motivos.
 
-## RESULTADO
+RESULTADO
 
 📊 Contexto de mercado
 As ações da Petrobras tiveram forte valorização nos últimos meses, impulsionadas pela alta do petróleo e pela política de dividendos generosos.
