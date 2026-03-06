@@ -5,7 +5,7 @@ Criar um prompt estruturado para auxiliar traders na tomada de decisão sobre **
 
 📝 Prompt
 Você é um analista financeiro especializado em mercado de capitais.  
-Analise o ativo e indique se a recomendação é **comprar, vender ou manter**.  
+Analise o ativo e indique se a recomendação é **comprar, vender ou manter.  
 
 Na sua resposta, detalhe:
 - Contexto atual do mercado e tendências recentes  
