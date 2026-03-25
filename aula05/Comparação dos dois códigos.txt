@@ -1,0 +1,44 @@
+🔹 1. Código do prompt vago
+
+O primeiro código:
+
+Apenas soma números
+Depende totalmente da interação do usuário (input)
+Não é reutilizável (não é uma função)
+Não valida erros (ex: entrada inválida pode quebrar)
+Não trata lista vazia
+Tem pouca explicação interna
+
+👉 Resumo: funciona, mas é básico e pouco robusto.
+
+🔹 2. Código do prompt refinado
+
+O segundo código trouxe melhorias claras:
+
+✅ Estrutura melhor
+Criou uma função (somar_lista)
+Pode ser reutilizado em outros programas
+✅ Validação
+Verifica se a lista está vazia
+Trata erro de conversão (try/except)
+Ignora valores inválidos dentro da lista
+✅ Clareza
+Comentários explicando cada etapa
+Código mais organizado e legível
+✅ Separação de responsabilidades
+Entrada do usuário separada da lógica de soma
+Isso é uma boa prática em programação
+
+🧠 Insight principal
+
+O refinamento do prompt fez com que o código deixasse de ser apenas "funcional" e passasse a ser:
+
+seguro, reutilizável e mais próximo de código profissional
+
+💡 Conclusão
+
+Quanto mais específico você for no prompt, mais o resultado tende a:
+
+Seguir boas práticas
+Ter tratamento de erros
+Ser útil no mundo real (não só didático)
