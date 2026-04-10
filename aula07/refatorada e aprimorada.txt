@@ -1,0 +1,25 @@
+def calcular(n1, n2, op):
+    operacoes = {
+        "+": n1 + n2,
+        "-": n1 - n2,
+        "*": n1 * n2,
+        "/": n1 / n2 if n2 != 0 else None
+    }
+    return operacoes.get(op)
+
+try:
+    num1 = float(input("Primeiro número: "))
+    op = input("Operação (+ - * /): ")
+    num2 = float(input("Segundo número: "))
+
+    resultado = calcular(num1, num2, op)
+
+    if resultado is None and op == "/":
+        print("Erro: divisão por zero!")
+    elif resultado is None:
+        print("Operação inválida!")
+    else:
+        print(f"Resultado: {resultado}")
+
+except ValueError:
+    print("Erro: digite apenas números válidos!")
