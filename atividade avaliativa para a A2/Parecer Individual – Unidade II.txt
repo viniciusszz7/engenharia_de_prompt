@@ -1,0 +1,20 @@
+Parecer Individual – Unidade II
+
+A Unidade II trouxe uma abordagem prática sobre o desenvolvimento de soluções com apoio de ferramentas modernas, destacando especialmente a importância de boas práticas como refatoração, automação e organização de fluxos de trabalho (workflow). Esses elementos são fundamentais para aumentar a produtividade, reduzir erros e garantir a qualidade no desenvolvimento de projetos.
+
+Um dos principais pontos abordados foi a refatoração, que consiste em melhorar o código sem alterar seu funcionamento. Essa prática é essencial para manter sistemas organizados, legíveis e fáceis de dar manutenção. Muitas vezes, ao desenvolver rapidamente, o código pode ficar desorganizado, e a refatoração entra como uma etapa importante para corrigir isso.
+
+Outro aspecto relevante é a automação, que permite economizar tempo em tarefas repetitivas. Ferramentas e scripts automatizados ajudam a evitar erros humanos e tornam o processo mais eficiente. No contexto atual, automatizar processos é praticamente indispensável para quem deseja produtividade e escalabilidade.
+
+A Unidade também destacou a importância do workflow, ou fluxo de trabalho, que organiza as etapas de um projeto. Um bom workflow garante que todas as tarefas sejam realizadas de forma estruturada, facilitando o acompanhamento e a colaboração entre equipes.
+
+Além disso, foi discutida a ética no uso de inteligência artificial, um tema extremamente relevante. Ferramentas como Copilot, Replit e Ghostwriter auxiliam no desenvolvimento, mas devem ser utilizadas com responsabilidade. É importante que o usuário compreenda o que está sendo gerado, evitando dependência excessiva e garantindo a autoria e entendimento do trabalho.
+
+No meu ponto de vista, o uso dessas ferramentas de IA é muito útil, principalmente para aprendizado e aumento de produtividade. No entanto, elas devem ser vistas como apoio, e não como substituição do conhecimento humano. Saber interpretar, adaptar e validar o que a IA produz é essencial.
+
+Por fim, a Unidade II contribuiu significativamente para o entendimento de como unir práticas de desenvolvimento com ferramentas modernas, mostrando que organização, ética e eficiência caminham juntas na construção de soluções tecnológicas.
+
+Fontes e Transparência
+Podcast da Unidade II (material fornecido pela disciplina)
+Conteúdos abordados em aula
+Ferramenta de IA utilizada: ChatGPT
