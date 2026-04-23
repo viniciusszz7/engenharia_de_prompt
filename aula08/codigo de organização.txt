@@ -1,0 +1,72 @@
+import os
+import shutil
+import tkinter as tk
+from tkinter import filedialog, messagebox
+
+# Estrutura de pastas baseada na organização criada
+estrutura = {
+    "01 - Estudos e Cursos": ["pdf", "doc", "docx", "ppt", "pptx", "xls", "xlsx", "txt"],
+    "02 - Projetos": ["py", "java", "cpp", "js", "html", "css"],
+    "03 - Trabalho": ["pdf", "doc", "docx", "xls", "xlsx"],
+    "04 - Mídia": ["jpg", "jpeg", "png", "gif", "mp4", "mkv", "mp3", "wav"],
+    "05 - Pessoal": ["txt"],
+    "06 - Downloads e Temporários": ["zip", "rar", "7z", "exe", "msi"]
+}
+
+def encontrar_categoria(extensao):
+    for pasta, extensoes in estrutura.items():
+        if extensao in extensoes:
+            return pasta
+    return "06 - Downloads e Temporários"
+
+def criar_subpasta(caminho_base, categoria):
+    caminho = os.path.join(caminho_base, categoria)
+    if not os.path.exists(caminho):
+        os.makedirs(caminho)
+    return caminho
+
+def gerar_nome_unico(pasta, nome_arquivo):
+    nome, extensao = os.path.splitext(nome_arquivo)
+    contador = 1
+    novo_nome = nome_arquivo
+
+    while os.path.exists(os.path.join(pasta, novo_nome)):
+        novo_nome = f"{nome} ({contador}){extensao}"
+        contador += 1
+
+    return novo_nome
+
+def organizar_arquivos():
+    pasta_origem = filedialog.askdirectory(title="Selecione a pasta")
+
+    if not pasta_origem:
+        return
+
+    try:
+        for arquivo in os.listdir(pasta_origem):
+            caminho_arquivo = os.path.join(pasta_origem, arquivo)
+
+            if os.path.isfile(caminho_arquivo):
+                extensao = arquivo.split(".")[-1].lower()
+
+                categoria = encontrar_categoria(extensao)
+                pasta_destino = criar_subpasta(pasta_origem, categoria)
+
+                novo_nome = gerar_nome_unico(pasta_destino, arquivo)
+
+                shutil.move(caminho_arquivo, os.path.join(pasta_destino, novo_nome))
+
+        messagebox.showinfo("Sucesso", "Arquivos organizados com sucesso!")
+
+    except Exception as e:
+        messagebox.showerror("Erro", str(e))
+
+# Interface simples
+root = tk.Tk()
+root.title("Organizador de Arquivos")
+root.geometry("300x150")
+
+btn = tk.Button(root, text="Selecionar Pasta e Organizar", command=organizar_arquivos)
+btn.pack(expand=True)
+
+root.mainloop()
